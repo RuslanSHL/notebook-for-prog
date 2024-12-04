@@ -9,6 +9,8 @@
 ![image](https://github.com/user-attachments/assets/44080d0b-927b-4298-a0fd-06df5b225923)
 Загрузить rar
 ![image](https://github.com/user-attachments/assets/ef0cebe0-7a5b-4f21-a0e6-2771b1926d9e)
+![image](https://github.com/user-attachments/assets/7396bb28-dd78-46ea-9ad2-f0c29946e677)
+
 
 
 
