@@ -1,0 +1,55 @@
+Sans Serif,8,-1,5,50,0,0,0,0,0
+1
+neytral_color focus_color dark_focus_color
+#ffffff #1594FA #123E68
+#ffffff #1594FA #123E68
+QMainWindow {
+	background-color: neytral_color;
+}
+
+FileButton {
+	background-color: transparent;
+}
+
+FileButton:hover:!pressed {
+	background-color: focus_color;
+	border-radius: 10px
+}
+
+FileButton:pressed {
+	border-radius: 10px;
+	border: 2px solid dark_focus_color;
+}
+
+QLabel {
+	min-width: 150px;
+}
+
+QLineEdit {
+	border: 2px solid neytral_color;
+	border-radius: 5px;
+}
+
+QLineEdit:focus {
+	border: 1px solid focus_color;
+	border-radius: 5px;
+}
+
+.QWidget {
+	background-color: neytral_color;
+}
+
+.QToolButton:hover:!pressed {
+	border: 1px solid focus_color;
+	border-radius: 5px;
+}
+
+.QToolButton:pressed {
+	border: 1px solid dark_focus_color;
+	border-radius: 5px;
+}
+
+QLabel#pathLabel {
+	border: 2px solid focus_color;
+	border-radius: 5px;
+}

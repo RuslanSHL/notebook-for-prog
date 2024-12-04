@@ -1,0 +1,62 @@
+Sans Serif,8,-1,5,50,0,0,0,0,0
+1
+neytral_color focus_color dark_focus_color
+#ffffff #1594FA #123E68
+#ffffff #1594FA #123E68
+QMainWindow {
+	background-color: neytral_color;
+}
+
+QToolButton {
+	margin: 3px
+}
+
+QToolButton:hover:!pressed {
+	border: 1px solid focus_color;
+	border-radius: 5px
+}
+
+QToolButton:pressed {
+	border: 1px solid dark_focus_color;
+	border-radius: 5px
+}
+
+QToolButton:checked {
+	background-color: focus_color;
+	border: none;
+	border-radius: 5px;
+}
+
+.QPushButton {
+	border-radius: 3px;
+	margin: 5px;
+	padding: 2px;
+}
+
+.QPushButton:hover:!pressed {
+	border: 1px solid focus_color;
+}
+
+
+.QPushButton:pressed {
+	border: 1px solid dark_focus_color;
+}
+
+QToolBar {
+	spacing: 3px;
+}
+
+Sans Serif,8,-1,5,50,0,0,0,0,0
+1
+neytral_color focus_color dark_focus_color
+#ffffff #1594FA #123E68
+#ffffff #1594FA #123E68
+QTextEdit:enabled {
+    border: 2px solid focus_color;
+    border-radius: 10px;
+    background: white;
+}
+
+QTextEdit:!enabled {
+	color: black;
+}
